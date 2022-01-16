@@ -1,0 +1,299 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2B3541;
+}
+.container {
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    flex-basis: 20%;
+}
+.header-item nav {
+    flex-basis: 110%;
+}
+.logo-header {
+    display: block;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    height: 56px;
+    margin-top: 17px;
+}
+.logo-header:hover {
+    transform: scale(1.1);
+}
+.header-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 54px;
+}
+.header-nav li:hover {
+    transform: scale(1.1);
+}
+.header-nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B3541;
+}
+.header-nav a:hover {
+    border-bottom: 1px solid #2B3541;
+    padding-bottom: 12px;
+}
+.social-set {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.header-IN {
+    display: block;
+    background-image: url(../images/IN.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.header-IN:hover {
+    transform:rotate(15deg);
+}
+.header-FB {
+    display: block;
+    background-image: url(../images/FB.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.header-FB:hover {
+    transform: rotate(15deg);
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #2B3541;
+}.banner {
+    margin-bottom: 161px;
+}
+.banner-flex {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.banner-box {
+    padding: 225px 0 0 5px;
+}
+.banner-title {
+    width: 635px;
+    text-transform: uppercase;
+}
+.banner-title span {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
+    margin-top: 41px;
+    text-transform: lowercase;
+}
+.banner-text {
+    width: 270px;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.banner-text p {
+    margin-bottom: 53px;
+}
+.banner-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 22px 32px;
+    background: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+    transition: 0.2s;
+}
+.banner-link:hover {
+    background-color: #1E2F40;
+    color: #FBF138;
+    transition: 0.2s;
+}
+.arrow {
+    cursor: pointer;
+    background-image: url(../images/Arrow.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border: none;
+    width: 56px;
+    height: 58px;
+    margin-top: 200px;
+}
+.banner-gradient {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    right: -75px;
+    z-index: -1;
+    max-width: 70%;
+}
+.banner-gradient img {
+    right: -100px;
+    width: 115%;
+    height: 75%;
+    position: absolute;
+    top: 38px;
+    object-fit: contain;
+}
+/*---Events--*/
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    margin: 0;
+}
+
+.event-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+.event-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 155px;
+    max-width: 100%;
+}
+.event-item img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+.event-one {
+    width: 337px;
+    height: 565px;
+    background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
+    position: relative;
+    padding-top: 35px;
+    padding-left: 35px;
+    transition: .2s ease background;
+}
+.event-one:hover {
+    background: linear-gradient(180deg, rgba(251, 241, 56, .6) 0%, rgba(253, 249, 182, 0) 100%);
+}
+.event-two {
+    width: 337px;
+    height: 565px;
+    background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
+    position: relative;
+    padding-top: 35px;
+    padding-left: 35px;
+    transition: .2s ease background;
+}
+.event-two:hover {
+    background: linear-gradient(180deg, rgba(251, 241, 56, .6) 0%, rgba(253, 249, 182, 0) 100%);
+}
+.event-three {
+    width: 337px;
+    height: 565px;
+    background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
+    position: relative;
+    padding-top: 35px;
+    padding-left: 35px;
+    transition: .2s ease background;
+}
+.event-three:hover {
+    background: linear-gradient(180deg, rgba(251, 241, 56, .6) 0%, rgba(253, 249, 182, 0) 100%);
+}
+.event-flex-date {
+    font-weight: 700;
+    opacity: 0.6;
+    margin: 0;
+} 
+.event-flex-title {
+    max-width: 240px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    margin: 0;
+    margin-top: 15px;
+}
+.event-type {
+    background: #FBF138;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: lowercase;
+    visibility: visible;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+    transition: .2s ease background, .2s ease color, .2s ease visibility;
+}
+.event-item:hover .event-type {
+    background: transparent;
+    color: transparent;
+    visibility: hidden;
+}
+.event-flex-btn {
+    max-width: 221px;
+    padding: 20px 37px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: transparent;
+    color: transparent;
+    visibility: hidden;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    top: 185px;
+    cursor: pointer;
+    transition: .2s ease background-color, .2s ease color, .2s ease visibility;
+}
+.event-item:hover .event-flex-btn {
+    background-color: #2B3541;
+    color: #FBF138;
+    visibility: visible;
+}
+.event-btn-mobile {
+    display: none;
+    position: absolute;
+    background-image: url(../img/btn_mobile.svg);
+    height: 30px;
+    width: 30px;
+    right: 0;
+    bottom: 0;
+    border: none;
+}
